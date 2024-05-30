@@ -6,8 +6,10 @@ pipeline{
     // }
 
     stages{
-        stage('Welcome to Jenkins'){
-            echo 'Welcome to CI-CD'
+        stage('welcome'){
+            steps{
+                echo 'Welcome to the project'
+            }
         }
         // stage("Checkout code") {
         //     steps{
